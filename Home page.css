@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(bgcontact.gif);
+}
+nav {
+    margin: 20px;
+    border-radius: 10px;
+    width: 97%;
+    background-color: cornflowerblue;
+}
+
+.navigation {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    float: left;
+    padding-top: 13px;
+    padding-left: 30px;
+}
+
+.logout {
+    position: relative;
+    left: 1030px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner img{
+    text-align: center;
+    height: 300px;
+    margin-left: 20px;
+    width: 97%;
+    border-radius: 10px;
+}
+
+.deskripsi {
+    padding: 30px;
+}
+
+.kumpulanpaket{
+    width: 97%;
+    margin: 1.5%;
+}
+
+.paket {
+    border-radius: 10px;
+    height: 200px;
+    width: 20%;
+    background-color: rgb(155, 180, 63);
+    float: left;
+}
+
+.margin{
+    margin-left: 7%;
+}
+
+.pilihan {
+    margin-top: 5px;
+}
+
+.pilihan button {
+    background-color: cornflowerblue;
+    width: 263px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pilihan button a {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.right{
+    float: right;
+}
+
+footer {
+    margin: 20px;
+    margin-top: 289px;
+    border-radius: 5px;
+    width: 97%;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+    background-color: gray;
+    font-weight: bold;
+    text-align: center;
+}

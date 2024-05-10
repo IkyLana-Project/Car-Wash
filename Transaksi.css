@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    margin: 20px;
+    border-radius: 10px;
+    width: 97%;
+    background-color: gray;
+}
+
+.navigation {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    float: left;
+    padding-top: 13px;
+    padding-left: 30px;
+}
+
+.logout {
+    position: relative;
+    left: 1030px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.transaksi {
+    height: 400px;
+    margin-left: 20px;
+    background-color: gray;
+    width: 97%;
+    border-radius: 10px;
+}
+
+.inputkanan {
+    float: left;
+    padding: 50px;
+    height: 400px;
+    width: 500px;
+}
+
+.inputkiri{
+    margin-top: 100px;
+    width: 700px;
+    height: 400px;
+    float: right;
+}
+
+.inputkiri input{
+    float: left;
+    margin-right: 15px;
+}
+
+.input2 {
+    padding: 10px;
+}
+
+label{
+    position: relative;
+    bottom: 5px;
+    display: flex;
+    width: 200px;
+    float: left;
+}
+
+.inputkanan input{
+    margin-bottom: 20px;
+    float: left;
+    width: 200px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.bayar {
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+}
+
+.bayar input {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.bayar2 {
+    width: 600px;
+    position: relative;
+    bottom: 190px;
+    right: 100px;
+    float: right;
+}
+
+.bayar2 label{
+    margin-bottom: 30px;
+}
+
+.bayar2 input {
+    width: 180px;
+    height: 25px;
+    border-radius: 5px;
+    position: relative;
+    right: 250px;
+    top: 52px;
+}
+
+footer {
+    margin: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 97%;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+    background-color: gray;
+    font-weight: bold;
+}
+
+footer p{
+    position: relative;
+    left: 480px;
+}
